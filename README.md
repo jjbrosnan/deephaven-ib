@@ -179,7 +179,7 @@ installed:
 
 Lightweight installations use pip-installed Deephaven.  These systems have less overhead, but they lack
 a few Deephaven IDE features.  Heavyweight installations launch the entire [Deephaven](https://deephaven.io) system.
-These systems launch multiple Docker containers and have more overhead, but they provide all Deephaven IDE features.
+These systems provide all Deephaven IDE features using multiple Docker containers, and therefore have more overhead.
 
 If you are running scripts that do not need human interaction, consider using a pip-installed option.
 
